@@ -1,0 +1,97 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"
+        ],
+        "width": 1024,
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "telegram"
+        ],
+        "defaultCode": 62150,
+        "grid": 14
+      },
+      "attrs": [],
+      "properties": {
+        "name": "telegram",
+        "id": 650,
+        "order": 59,
+        "prevSize": 28
+      },
+      "setIdx": 8,
+      "setId": 27,
+      "iconIdx": 650
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1020.16 161.707l-154.027 727.467c-10.667 51.627-41.813 64-85.333 40.107l-234.667-173.653-113.493 109.653c-12.8 12.8-23.467 23.893-46.933 23.893-30.72 0-25.6-11.52-35.84-40.533l-81.067-264.107-232.533-72.533c-50.347-14.933-50.773-49.493 11.093-74.667l907.093-349.867c41.387-18.347 81.067 10.24 65.707 74.24z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(44, 165, 224)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "telegram"
+        ],
+        "grid": 0
+      },
+      "attrs": [
+        {
+          "fill": "rgb(44, 165, 224)"
+        }
+      ],
+      "properties": {
+        "id": 799,
+        "order": 58,
+        "prevSize": 32,
+        "name": "telegram1"
+      },
+      "setIdx": 18,
+      "setId": 17,
+      "iconIdx": 798
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

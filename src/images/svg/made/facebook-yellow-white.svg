@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g>
+   <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+   <path fill="#ffd012" d="m648,301.5c0,-137 -111,-248 -248,-248s-248,111 -248,248c0,123.78 90.69,226.38 209.25,245l0,-173.31l-63,0l0,-71.69l63,0l0,-54.64c0,-62.15 37,-96.48 93.67,-96.48c27.14,0 55.52,4.84 55.52,4.84l0,61l-31.28,0c-30.8,0 -40.41,19.12 -40.41,38.73l0,46.55l68.78,0l-11,71.69l-57.78,0l0,173.31c118.56,-18.62 209.25,-121.22 209.25,-245z"/>
+  </g>
+ </g>
+
+</svg>
