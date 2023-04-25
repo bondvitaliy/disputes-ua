@@ -44,3 +44,5 @@ ISSUES
 20. add the correct styles to the image: ex. border-radius 100px, overflow: hidden;
 
 21. +++ Turn rgba colors into hex in the variables - !DONE!
+
+22. remove NBSPs - "white-space: pre-line" instead

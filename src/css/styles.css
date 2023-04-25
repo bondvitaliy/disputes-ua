@@ -687,7 +687,7 @@ q::after {
 }
 
 .photo-boss {
-  background-image: url('/images/photoboss.png');
+  background-image: url('./images/photoboss.png');
   background-size: cover;
   background-position: center;
   width: 475px;
@@ -1019,7 +1019,7 @@ q::after {
 }
 
 .photo-boss-small {
-  background-image: url('/images/photoboss-small.jpg');
+  background-image: url('./images/photoboss-small.jpg');
   background-size: cover;
   background-position: center;
   width: 360px;
