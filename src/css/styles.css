@@ -1426,6 +1426,8 @@ flex-grow: 0; */
 .reviews-text {
   margin-right: auto;
 
+  white-space: pre-line;
+
   /* h5 */
 
   font-family: 'Lato', sans-serif;
@@ -2529,6 +2531,10 @@ flex-grow: 0; */
   /* black */
 
   color: var(--black);
+}
+
+.questions-items-text p {
+  white-space: pre-line;
 }
 
 .questions-items-border img {
