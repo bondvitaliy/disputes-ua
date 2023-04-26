@@ -46,3 +46,7 @@ ISSUES
 21. +++ Turn rgba colors into hex in the variables - !DONE!
 
 22. remove NBSPs - "white-space: pre-line" instead
+
+23. correct padding-margin on Service buttons
+
+24. add shadows on hanging elements - buttons, forms, etc
