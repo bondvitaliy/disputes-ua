@@ -50,3 +50,5 @@ ISSUES
 23. correct padding-margin on Service buttons
 
 24. add shadows on hanging elements - buttons, forms, etc
+
+25. add cursor pointer on all buttons - WORK IN PROGRESS
