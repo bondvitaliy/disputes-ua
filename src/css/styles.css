@@ -970,35 +970,7 @@ q::after {
   border-radius: 30px;  
 }
 
-/* OLD */
 
-/* .about-heading-specifity {
-  color: var(--color-hd);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-.about-heading {
-  color: var(--color-hd);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.about-text {
-  color: var(--color-add-txt);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-} */
 
 /* SECTION TEAM */
 
@@ -1831,9 +1803,12 @@ flex-grow: 0; */
   color: var(--black);
 }
 
+
+
 /* BIG SECTION FOOTER: CONTACTS + FOOTER */
 
-/* SECTION CONTACTS */
+
+/* SUBSECTION CONTACTS */
 
 /* .contacts {
   margin-bottom: 48px;
@@ -2199,7 +2174,8 @@ order: 0;
 flex-grow: 0; */
 }
 
-/* SECTION MAP */
+
+/* SUBSECTION MAP */
 
 .map {
   /* margin-bottom: 48px; */
@@ -2224,6 +2200,8 @@ flex-grow: 0; */
   border-radius: 15px;
   box-shadow: var(--content-shadow);
 }
+
+
 
 /* FOOTER */
 
@@ -2476,7 +2454,11 @@ flex-grow: 0; */
   fill: #3b3b3b;
 }
 
+
+
 /* PAGE SERVICES */
+
+
 /* SECTION QUESTIONS */
 
 .questions {
@@ -2552,7 +2534,7 @@ flex-grow: 0; */
   /* transform: rotate(90deg); */
 }
 
-/* SECTION HEADING - SERVICES */
+/* SECTION HEADING */
 
 .heading > .container {
   padding: 0;
@@ -2598,8 +2580,11 @@ flex-grow: 0; */
   white-space: pre-wrap;
 }
 
+
+
 /* PAGE VICTORIES */
-/* SECTION VICTORIES 1-3 */
+
+/* SECTION VICTORIES 1-2-3 */
 .victories {
   margin-top: 50px;
 }
@@ -2630,12 +2615,18 @@ flex-grow: 0; */
   color: var(--black);
 }
 
+
+
 /* PAGE ABOUT */
 /* SECTION TEAM LEADER */
 
+
 /* SECTION TEAM MEMBERS */
 
+
+
 /* PAGE CONTACTS */
+
 /* SECTION QUOTATION */
 
 .quotation {

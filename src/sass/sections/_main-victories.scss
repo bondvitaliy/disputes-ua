@@ -1,0 +1,178 @@
+/* SECTION VICTORIES */
+
+
+.victories-heading {
+    /* h3 headlines for blocks */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* black */
+    color: var(--black);
+}
+
+.victories-content {
+    display: flex;
+    flex-wrap: nowrap;
+
+    height: auto;
+    width: auto;
+
+    margin-top: 79px;
+}
+
+/* .victories-item {
+  padding: 28px 33px 32px 24px;
+} */
+
+.victories-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.victories-top {
+    height: 172px;
+    background-image: url(../images/victories.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+
+    background-color: var(--main-color2);
+    background-size: contain;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+.victories-bottom {
+    /* margin-top: 28px; */
+    padding: 28px 33px 32px 24px;
+
+    box-shadow: var(--content-shadow);
+    border-radius: 0px 0px 15px 15px;
+
+    background-color: var(--white);
+}
+
+.victories-bottom-date {
+    display: inline-block;
+
+    padding: 0 6px;
+
+    /* black */
+
+    border: 1px solid var(--black);
+    border-radius: 15px;
+}
+
+.victories-bottom-date-text {
+    /* h9 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+
+    /* display: flex;
+  align-items: center;
+  text-align: center; */
+
+    /* black */
+
+    color: var(--black);
+}
+
+.victories-bottom-text {
+    padding: 19px 0 43px 0;
+
+    /* h7 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 144% */
+
+    text-align: justify;
+
+    /* black */
+
+    color: var(--black);
+}
+
+.victories-bottom-link {
+    display: flex;
+    justify-content: center;
+
+    /* h9 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-color: var(--main-color2);
+    /* text-decoration-skip-ink: none; */
+
+    /* main color2 */
+    color: var(--main-color2);
+}
+
+.victories-button-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 152px;
+    height: 40px;
+
+    padding: 20px 10px;
+    margin-top: 53px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* h8 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* black */
+
+    color: var(--black);
+
+    /* grey */
+
+    background: var(--grey);
+    border-radius: 30px;
+    border: 0;
+
+    /* Inside auto layout */
+    /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+
+    cursor: pointer;
+
+    box-shadow: var(--nav-shadow);
+}
+
+.victories-link-more {
+    text-decoration: none;
+}

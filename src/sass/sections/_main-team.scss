@@ -1,0 +1,384 @@
+/* SECTION TEAM */
+
+
+.team-border {
+    /* background-image: url(../images/border.jpg);
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team-heading {
+    padding-top: 48px;
+
+    /* h3 headlines for blocks */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* black */
+    color: var(--black);
+}
+
+.team-button-more {
+    margin-top: 18px;
+
+    /* more */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 3px 20px; */
+    /* gap: 10px; */
+
+    width: 117px;
+    height: 26px;
+
+    /* black */
+    border: 1px solid var(--black);
+    border-radius: 30px;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.team-button-more-text {
+    /* Детальніше */
+    /* width: 77px;
+  height: 20px; */
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    padding: 3px 20px;
+
+    /* h8 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* black */
+    color: var(--black);
+}
+
+.team-content a {
+    text-decoration: none;
+}
+
+.team-card {
+    padding: 48px 50px 50px 34px;
+}
+
+.team-card-details {
+    /* main color2 */
+    background: var(--main-color2);
+    box-shadow: var(--content-shadow);
+    border-radius: 0px 0px 15px 15px;
+    width: 360px;
+}
+
+.photo-boss-small {
+    background-image: url('../images/photoboss-small.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 360px;
+    height: 273px;
+    object-fit: contain;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.team-card-name {
+    padding: 15px 20px 4px 20px;
+
+    /* h4 bold */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    /* white */
+    color: var(--white);
+}
+
+.team-card-position {
+    padding: 0 20px 15px 20px;
+    /* h7 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height, or 144% */
+
+    text-align: center;
+
+    /* white */
+    color: var(--white);
+}
+
+.team-card-contacts {
+    padding: 0 20px;
+}
+
+.team-contacts-item {
+    padding-bottom: 16px;
+}
+
+.team-icons-phone {
+    width: 17.81px;
+    height: 17.81px;
+}
+
+.team-contacts-link {
+    padding-left: 25px;
+
+    /* h7 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height, or 144% */
+
+    /* white */
+    color: var(--white);
+
+    text-decoration: none;
+}
+
+.team-icons-mail {
+    width: 18.75px;
+    height: 15px;
+}
+
+.team-card-description {
+    padding-top: 22px;
+
+    /* h8 */
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: justify;
+
+    /* white */
+    color: var(--white);
+}
+
+.team-card-contacts-link {
+    display: flex;
+    justify-content: center;
+
+    padding: 13px 0 28px;
+}
+
+.team-link-more {
+    /* h9 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    /* white */
+    color: var(--white);
+
+    /* Inside auto layout */
+
+    /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+}
+
+.team-list-button-contacts {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team-button-contacts-item:first-child {
+    padding-right: 20px;
+    padding-left: 12px;
+}
+
+.team-button-contacts {
+    /* Auto layout */
+
+    /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px; */
+
+    /* main color1 */
+
+    /* height: 30px; */
+
+    background: var(--main-color1);
+
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.team-button-contacts-text {
+    padding: 8px 9px;
+
+    /* h9 without line */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    /* black */
+
+    color: var(--black);
+
+    /* Inside auto layout */
+
+    /* flex: none;
+order: 0;
+flex-grow: 0; */
+}
+
+/* .team-button-contacts-text:last-child {
+  padding: 8px 9.5px;
+} */
+
+.team-list-social {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px 11px 31px 12px;
+}
+
+.team-list-item-social {
+    padding-right: 20px;
+}
+
+.team-list-item-text {
+    padding-top: 6px;
+}
+
+/* .team-list-item-social:last-child {
+  padding-right: 0;
+} */
+
+.team-link-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 5px; */
+
+    /* h9 without line */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration: none;
+
+    /* white */
+
+    color: var(--white);
+}
+
+.team-list-item-border {
+    padding: 0 20px 0 20px;
+}
+
+/* .team-image-border {
+  padding: 23px 13px 29px 17px;
+} */
+
+/* .team-link-social-text {
+ } */
+
+.team-members {
+    padding-top: 111px;
+}
+
+.team-members-list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team-members-item {
+    border-radius: 15px;
+}
+
+.team-members-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.team-arrows {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 49px;
+}
+
+.team-arrows-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* main color2 */
+    border: 2px solid var(--main-color2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.team-arrows-button:not(:last-child) {
+    margin-right: 25px;
+}
+
+.team-arrow-icons {
+    width: 20px;
+}

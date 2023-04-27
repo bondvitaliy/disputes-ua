@@ -1,0 +1,66 @@
+/* SECTION MOTTO */
+
+
+.motto {
+    margin-bottom: 100px;
+    background-color: var(--background);
+}
+
+.motto>.container {
+    padding: 0;
+}
+
+.motto-content {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 37px 0 64px 0;
+}
+
+.motto-content-up {
+    display: flex;
+    justify-content: left;
+}
+
+.motto-content-down {
+    /* display: flex;
+  justify-content: center; */
+
+    margin-top: -60px;
+    padding-left: 153px;
+}
+
+.motto-text-up {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 180px;
+    line-height: 216px;
+    /* identical to box height */
+
+    text-align: justify;
+    text-transform: uppercase;
+
+    /* black */
+
+    /* border: 1px solid #000000; */
+
+    -webkit-text-stroke: 1px var(--black);
+    /* задаємо контур тексту */
+    color: transparent;
+    /* робимо текст прозорим */
+}
+
+.motto-text-down {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height */
+
+    /* text-align: center; */
+    text-transform: uppercase;
+
+    /* black */
+    color: var(--black);
+}

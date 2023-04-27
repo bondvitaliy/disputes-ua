@@ -1,0 +1,171 @@
+/* SECTION SERVICES */
+
+
+.services {
+    /* hover 1 */
+    background-color: var(--hover);
+}
+
+.nobackground.services {
+    background-color: var(--white);
+}
+
+.services-heading {
+    padding-top: 44px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* black */
+    color: var(--black);
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-list-item {
+    margin: 50px 20px;
+}
+
+.services-list-item:first-child,
+.services-list-item:nth-child(2),
+.services-list-item:nth-child(3),
+.services-list-item:nth-child(4),
+.services-list-item:last-child {
+    margin-left: 0;
+}
+
+.services-list-item:last-child,
+.services-list-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.services-list-item:nth-child(4),
+.services-list-item:last-child {
+    margin-top: 0;
+}
+
+.services-list-item.nomargin {
+    margin-bottom: 0;
+}
+
+.button-services {
+    width: 360px;
+    height: 142px;
+
+    padding: 20px 5px 19px 16px;
+
+    border: none;
+    border-radius: 20px;
+
+    /* margin-bottom: 50px;
+  margin-right: 20px; */
+
+    /* main color1 */
+    background: var(--main-color1);
+
+    cursor: pointer;
+}
+
+.button-services-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    /* main color2 */
+
+    color: var(--main-color2);
+
+    /* main color2 */
+
+    /* border: 1px solid var(--main-color2); */
+}
+
+.button-services-text-transparent {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    -webkit-text-stroke: 1px #3b3b3b;
+    /* задаємо контур тексту */
+    color: transparent;
+    /* робимо текст прозорим */
+
+    /* main color2 */
+
+    /* border: 1px solid #3b3b3b; */
+}
+
+.services-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-more>a {
+    text-decoration: none;
+}
+
+.service-button-more {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+
+    width: 152px;
+    height: 40px;
+
+    padding: 10px 20px;
+    margin-bottom: 32px;
+    gap: 10px;
+
+    border: none;
+    border-radius: 30px;
+
+    background-color: var(--main-color2);
+
+    cursor: pointer;
+}
+
+.service-button-more-text {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* h8 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* display: flex;
+  align-items: center;
+  text-align: center; */
+
+    /* white */
+
+    color: #ffffff;
+}

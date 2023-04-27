@@ -1,0 +1,26 @@
+/* VARIABLES */
+
+:root {
+    /* colors */
+    --main-color1: #ffd012;
+    --main-color2: #3b3b3b;
+    --background: #f7ecdb;
+
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #d9d9d9;
+    --red: #ff0000;
+
+    --hover: #eeeeee;
+    --hover2: #cca60e;
+    --hover3: #828282;
+
+    /* shadows */
+    --nav-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    --content-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    /* gradients */
+    --main-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    --bg-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}

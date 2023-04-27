@@ -1,0 +1,77 @@
+/* PAGE SERVICES */
+
+
+/* SECTION QUESTIONS */
+
+.questions {
+    background-color: #f7ecdb;
+    margin: 100px 0;
+}
+
+.questions-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 85px;
+    /* align-items: center; */
+}
+
+.questions-items-content {
+    padding: 56px 0;
+}
+
+.questions-items-heading {
+    margin-bottom: 40px;
+
+    /* h3 headlines for blocks */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: var(--black);
+}
+
+.questions-items-text {
+    /* h8 */
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: justify;
+
+    /* black */
+
+    color: var(--black);
+}
+
+.questions-items-text p {
+    white-space: pre-line;
+}
+
+.questions-items-border img {
+    padding: 38px 0;
+    max-width: fit-content;
+
+    /* background-image: url(../images/border-vertical-big.png); */
+
+    /* black */
+
+    /* background: var(--black); */
+    /* black */
+
+    /* border: 1px solid var(--black); */
+    /* transform: rotate(90deg); */
+}

@@ -1,0 +1,22 @@
+/* SECTION VIDEO */
+
+.video-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 30px; */
+
+    max-width: 1120px;
+    /* height: 587px; */
+
+    /* padding: 100px 0px; */
+
+    /* width: 1730px;
+  height: 746px; */
+}
+
+.video-frame>iframe {
+    /* width: 1120px; */
+    border: none;
+    border-radius: 30px;
+}
