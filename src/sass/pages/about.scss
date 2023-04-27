@@ -1,0 +1,22 @@
+// base components
+@import '../utils/variables';
+
+@import '../base/global';
+@import '../base/section-container';
+@import '../base/chat-button-form';
+
+@import '../components/page-header';
+@import '../components/page-heading';
+
+
+// page components
+@import '../sections/about-team-leader';
+@import '../sections/about-team-members';
+@import '../sections/about-video';
+
+
+// base components
+@import '../components/page-contacts';
+@import '../components/page-footer';
+
+@import '../base/fonts';

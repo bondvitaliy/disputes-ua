@@ -1,9 +1,14 @@
+// base components
 @import '../utils/variables';
+
 @import '../base/global';
 @import '../base/section-container';
-@import '../components/page-header';
-@import '../components/page-heading';
+@import '../base/chat-button-form';
 
+@import '../components/page-header';
+
+
+// page components
 @import '../sections/main-hero';
 @import '../sections/main-about';
 @import '../sections/main-services';
@@ -14,6 +19,8 @@
 @import '../sections/main-victories';
 @import '../sections/main-motto';
 
+
+// base components
 @import '../components/page-contacts';
 @import '../components/page-footer';
 @import '../base/fonts';
