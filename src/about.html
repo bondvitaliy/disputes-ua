@@ -25,8 +25,14 @@
 
   <body>
     
+    <include src="./partials/header.html"></include>
+
+    <!-- <div w3-include-html="header.html"></div> -->
+    <!-- <div include="./partials/header.html"></div> -->
+
+
     <!-- HEADER -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <a href="./index.html" lang="uk" class="logo-header">
           <ul>
@@ -59,9 +65,14 @@
           </button>
         </div>
       </div>
-    </header>
+    </header> -->
     
     <main>
+
+      <!-- <include src="./partials/heading.html" locals='{
+        "text": "НАША КОМАНДА"
+    }'></include> -->
+
       <!-- SECTION HEADING - SERVICES -->
       <section class="heading">
         <div class="container">
@@ -414,11 +425,12 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
       crossorigin="anonymous"
-    ></script>
-    <script src="./js/main.js"></script>
+    ></script> -->
+    <script type="module" src="./js/main.js">      
+    </script>
   </body>
 </html>

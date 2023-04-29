@@ -24,9 +24,11 @@
   </head>
 
   <body>
+
+    <include src="./partials/header.html"></include>
     
     <!-- HEADER -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <a href="./index.html" lang="uk" class="logo-header">
           <ul>
@@ -59,17 +61,22 @@
           </button>
         </div>
       </div>
-    </header>
+    </header> -->
     
     <main>
+
+      <include src="./partials/heading.html" locals='{
+        "text": "ПЕРЕМОГИ"
+    }'></include>
+
       <!-- SECTION HEADING - VICTORIES -->
-      <section class="heading">
+      <!-- <section class="heading">
         <div class="container">
           <div class="heading-content">
             <h1>ПЕРЕМОГИ</h1>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- SECTION VICTORIES 1 -->
       <section class="victories">
@@ -533,11 +540,11 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
       crossorigin="anonymous"
-    ></script>
-    <script src="./js/main.js"></script>
+    ></script> -->
+    <!-- <script src="./js/main.js"></script> -->
   </body>
 </html>
