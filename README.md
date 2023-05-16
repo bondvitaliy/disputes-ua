@@ -57,6 +57,8 @@ CURRENT ISSUES
 
 26. change the photo of boss (use overflow: hidden; on the img)
 
+
+
 // MAIN ISSUES
 
 1. do the ABOUT page
@@ -70,3 +72,25 @@ CURRENT ISSUES
 5. do the PUBLICATIONS page to the end
 
 6. do the OPENED SERVICE page - !Ask Dmytro!
+
+
+
+// FINAL EDITIONS
+
+1. Remove code from font properties:
+- font-family - only once on bodyб others to be deleted;
+- remove 'font-weight: 400;' - it's default value;
+- remove 'font-style: normal;' - it's default value;
+
+2. Turn all 'line-height: 14px;' and others into relative values f.e. 
+- 'line-height: 1.2;'
+- 'line-height: 147%;'
+- 'line-height: calc(14 / 12);'
+
+3. remove all comments in final css/html/js (if needed) - maybe except sections
+
+4. find all min-(max-) width, height and find out if they not conflicted with layout
+
+5. check all hovers
+
+6. check all links

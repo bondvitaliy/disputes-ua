@@ -1,28 +1,37 @@
-/* UNKNOWN CODE */
+// base components
+@import './utils/variables';
 
-/* ICONS LNG */
+@import './base/global';
+@import './base/section-container';
+@import './base/chat-button-form';
 
-.outer-icon {
-	position: relative;
-}
+@import './components/page-header';
+@import './components/page-heading';
 
-.outer-icon>svg {
-	width: 200px;
-	height: 200px;
 
-	fill: #ffd012;
-}
+// page components
+@import './sections/about-team-leader';
+@import './sections/about-team-members';
+@import './sections/about-video';
+@import './sections/contacts-quotation';
+@import './sections/main-about';
+@import './sections/main-hero';
+@import './sections/main-motto';
+@import './sections/main-partners';
+@import './sections/main-reviews';
+@import './sections/main-services';
+@import './sections/main-team';
+@import './sections/main-victories';
+@import './sections/main-video';
+@import './sections/publications-news';
+@import './sections/services-questions';
+@import './sections/services-services-buttons';
+@import './sections/victories-motto';
+@import './sections/victories-victories';
 
-.inner-icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
 
-.inner-icon>svg {
-	width: 50px;
-	height: 50px;
+// base components
+@import './components/page-contacts';
+@import './components/page-footer';
 
-	fill: #3b3b3b;
-}
+@import './base/fonts';
