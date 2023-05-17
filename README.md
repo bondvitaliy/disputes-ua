@@ -94,3 +94,7 @@ CURRENT ISSUES
 5. check all hovers
 
 6. check all links
+
+7. remove 'index.css', 'about.css'  etc from the <head> of the pages, put in for all of them 'main.css' instead
+
+8. add webkit prefix for all css code
